@@ -6,7 +6,7 @@ edits is just a product of matrices.
 """
 import math
 
-from .matrix import identity, mat_mul, determinant
+from matrix import identity, mat_mul, determinant
 
 
 def _clean(v):
