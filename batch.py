@@ -1,7 +1,7 @@
 """Batch processing: apply the current edit chain to many images using a FIFO queue."""
 from chain import chain_matrix
-from ds.fifo_queue import FifoQueue
-from math_engine.warp import inverse_warp
+from fifo_queue import FifoQueue
+from warp import inverse_warp
 
 
 def build_queue(named_images):
