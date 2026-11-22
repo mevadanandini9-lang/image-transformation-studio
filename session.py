@@ -11,10 +11,9 @@ from dataclasses import dataclass
 from chain import step_matrix
 from imageio import from_png_bytes, to_png_bytes
 from ds.stack import Stack
-from math_engine.matrix import SingularMatrixError, determinant
-from math_engine.transforms import compose
-from math_engine.warp import inverse_warp, output_canvas
-
+from matrix import SingularMatrixError, determinant
+from transforms import compose
+from warp import inverse_warp, output_canvas
 
 @dataclass
 class Step:
