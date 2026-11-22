@@ -50,10 +50,4 @@ Run every command from the project root.
   first (a FIFO queue would restore them in the wrong order). The **Queue** is used for batch processing.
 * Pillow is used only to read, write and downscale image files (uploads are limited to 1024 px on the long side).
 
-## Screenshots
-Add screenshots of the app here after running it (Studio tab, "Why inverse mapping?" tab, "Zero determinant" tab).
-Required-output figures are already in `report/figures/`.
 
-## AI / external code declaration
-(Fill in honestly before submission: which tools or sources you used and for what. Every line of code
-must be explainable by the team member who presents it in the viva.)
