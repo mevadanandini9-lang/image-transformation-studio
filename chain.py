@@ -1,6 +1,8 @@
 """Turns an edit (name + parameters) into a matrix, and a chain of edits into one matrix."""
-from math_engine.transforms import (about_point, compose, flip_horizontal,
-                                    flip_vertical, rotation, scaling, shear)
+from transforms import (
+    about_point, compose, flip_horizontal,
+    flip_vertical, rotation, scaling, shear
+)
 
 STEP_NAMES = ["Rotate", "Flip horizontal", "Flip vertical", "Shear", "Scale"]
 
