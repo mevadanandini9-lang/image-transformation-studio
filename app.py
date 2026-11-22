@@ -26,8 +26,8 @@ st.set_page_config(page_title="Image Transformation Studio", layout="wide")
 
 @st.cache_resource
 def get_db():
-    return Database(os.path.join(ROOT, "studio.db"))
-
+    db_path = os.environ.get("STUDIO_DB_PATH", "/tmp/studio.db")
+    return Database(db_path)
 
 db = get_db()
 ss = st.session_state
