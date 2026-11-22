@@ -10,7 +10,7 @@ from dataclasses import dataclass
 
 from chain import step_matrix
 from imageio import from_png_bytes, to_png_bytes
-from ds.stack import Stack
+from stack import Stack
 from matrix import SingularMatrixError, determinant
 from transforms import compose
 from warp import inverse_warp, output_canvas
