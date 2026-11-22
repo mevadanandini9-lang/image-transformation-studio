@@ -10,9 +10,8 @@ import math
 
 import numpy as np
 
-from .matrix import inverse, mat_vec
-from .transforms import compose, translation
-
+from matrix import inverse, mat_vec
+from transforms import compose, translation
 MAX_SIDE = 4000  # refuse absurdly large output canvases
 
 
