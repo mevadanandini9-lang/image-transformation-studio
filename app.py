@@ -16,10 +16,10 @@ from batch import build_queue, process_queue
 from imageio import load_image, make_sample_image, to_png_bytes, to_rgb
 from session import EditorSession
 from chain import STEP_NAMES
-from db.database import Database
-from math_engine.matrix import SingularMatrixError, format_matrix, inverse
-from math_engine.transforms import about_point, compose, describe_determinant, rotation, scaling
-from math_engine.warp import forward_vs_inverse, forward_warp, inverse_warp
+from database import Database
+from matrix import SingularMatrixError, format_matrix, inverse
+from transforms import about_point, compose, describe_determinant, rotation, scaling
+from warp import forward_vs_inverse, forward_warp, inverse_warp
 
 st.set_page_config(page_title="Image Transformation Studio", layout="wide")
 
