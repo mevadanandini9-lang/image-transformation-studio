@@ -177,7 +177,8 @@ with tab_zero:
 with tab_batch:
     st.subheader("Apply the current edit chain to many images")
     files = st.file_uploader("Choose images", type=["png", "jpg", "jpeg", "bmp", "webp"],
-                             accept_multiple_files=True, key="batch_files")
+                             accept_multiple_files=True, key="batch_files ,  max_upload_size=50")
+    
     chain = ed.chain() if ed is not None else []
     st.write(f"Current chain: {', '.join(n for n, _ in chain) or '(empty - identity)'}")
     if files and st.button("Process queue"):
