@@ -37,7 +37,7 @@ st.sidebar.header("1. Image")
 upload = st.sidebar.file_uploader(
     "Upload an image",
     type=["png", "jpg", "jpeg", "bmp", "webp"],
-    max_upload_size=50
+    max_upload_size=10
 )
 interp = st.sidebar.radio("Interpolation", ["bilinear", "nearest"],
                           help="How a value is chosen when the source point falls between pixels.")
