@@ -1,0 +1,6 @@
+numpy
+pillow
+streamlit
+matplotlib
+scipy      # tests only (validation)
+pytest     # tests only
