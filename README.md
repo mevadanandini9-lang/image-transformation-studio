@@ -52,4 +52,7 @@ Run every command from the project root.
 Add screenshots of the app here after running it (Studio tab, "Why inverse mapping?" tab, "Zero determinant" tab).
 Required-output figures are already in `report/figures/`.
 
+<img width="1100" height="440" alt="2_zero_determinant" src="https://github.com/user-attachments/assets/e72b0933-0eab-4252-a419-7ad50bd1daed" />
+<img width="1650" height="660" alt="1_chain_and_undo" src="https://github.com/user-attachments/assets/6af1d46a-a129-4952-90fd-de1530898545" />
+<img width="1650" height="550" alt="3_inverse_mapping_no_holes" src="https://github.com/user-attachments/assets/c9ce0bfd-ee47-478a-8ce9-b992cd72f308" />
 
