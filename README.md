@@ -52,6 +52,4 @@ Run every command from the project root.
 Add screenshots of the app here after running it (Studio tab, "Why inverse mapping?" tab, "Zero determinant" tab).
 Required-output figures are already in `report/figures/`.
 
-## AI / external code declaration
-(Fill in honestly before submission: which tools or sources you used and for what. Every line of code
-must be explainable by the team member who presents it in the viva.)
+
